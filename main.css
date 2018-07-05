@@ -9,6 +9,7 @@ h1 {
 table {
     border: 2px solid black;
     border-collapse: collapse;
+    width: 10%;
 }
 
 th, td {
