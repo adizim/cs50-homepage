@@ -23,26 +23,32 @@
                 <tr>
                     <th>Algorithm</th>
                     <th>Runtime</th>
+                    <th>Notes</th>
                 </tr>
                 <tr>
                     <td>Breadth-First Search</td>
-                    <td><span class="runtime">O(V + E)</span></td>
+                    <td><span class="runtime">O(V + E) (worst case)</span></td>
+                    <td>Solves shortest paths with unit weight edges</td>
                 </tr>
                 <tr>
                     <td>Depth-First Search</td>
-                    <td><span class="runtime">O(V + E)</span></td>
+                    <td><span class="runtime">O(V + E) (worst case)</span></td>
+                    <td>Solves a multitude of problems including paths, cycles, sorts</td>
                 </tr>
                 <tr>
                     <td>Binary Search</td>
                     <td><span class="runtime">O(log N)</span></td>
+                    <td>Only works on sorted arrays</td>
                 </tr>
                 <tr>
                     <td>Merge Sort</td>
                     <td><span class="runtime">O(N log N)</span></td>
+                    <td>Stable (retains order of identical items) <br> always same runtime</td>
                 </tr>
                 <tr>
                     <td>Quick Sort</td>
-                    <td><span class="runtime">O(N log N)</span></td>
+                    <td><span class="runtime">O(N log N) average case <br> O(n^2) worst case</span></td>
+                    <td>Unstable (does not retain order of identical items) <br> fastest in practice</td>
                 </tr>
             </table>
         </div>
