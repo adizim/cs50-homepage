@@ -9,7 +9,7 @@ h1 {
 table {
     border: 2px solid black;
     border-collapse: collapse;
-    width: 10%;
+    width: 40%;
 }
 
 th, td {
@@ -18,5 +18,5 @@ th, td {
 }
 
 th {
-    background-color: grey;
+    background-color: lightgrey;
 }
