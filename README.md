@@ -9,6 +9,10 @@ list of algorithms and a table that shows runtimes and remarks. Each algorithm h
 textual description. In addition, the index file has stylesheet `main.css` and the other files have stylesheet
 `pages.css`.
 
-# Additional Information
+# Todo
 
-The linked algorithm pages still need to be updated for content and style.
+The linked algorithm pages still need to be updated for content (specifics on algs) and style:
+1. 5 CSS properties/selectors
+2. Media query for smaller screens
+3. 1 Bootstrap4 component, 2 Bootstrap4 columns using Grid Model
+4. 1 SCSS variable, nesting, inheritance
